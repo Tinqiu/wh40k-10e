@@ -194,6 +194,10 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="7717-a0c6-7da3-952e" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="5f30-303c-5cda-1808" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
@@ -204,6 +208,7 @@
   </categoryEntries>
   <entryLinks>
     <entryLink import="true" name="Daemon Prince of Slaanesh" hidden="false" id="03fb-3ecc-3fc0-3adc" type="selectionEntry" targetId="cd21-2f71-e0e7-05ad"/>
+    <entryLink import="true" name="Detachment Choice" hidden="false" id="d9a1-8628-f098-a914" type="selectionEntry" targetId="a4ae-7b0c-7005-c6d5"/>
   </entryLinks>
   <sharedRules>
     <rule name="Thrill Seekers" id="478c-a010-c2e0-804a" hidden="false">

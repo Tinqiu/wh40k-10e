@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="4d70-8e73-4241-57ac" name="Chaos - Emperor&apos;s Children" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="36" revision="4" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="4d70-8e73-4241-57ac" name="Chaos - Emperor&apos;s Children" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="36" revision="5" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Daemon Prince of Slaanesh" hidden="false" id="cd21-2f71-e0e7-05ad">
       <categoryLinks>
@@ -229,4 +229,27 @@
       <description>Each time an EMPEROR&apos;S CHILDREN model from your army makes an attack, if it disembarked from a TRANSPORT this turn, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.</description>
     </rule>
   </sharedRules>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Enhancements" id="9ec4-fbee-0ccd-293a" hidden="false" import="true">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Sublime Prescience" hidden="false" id="6c34-b525-fe01-fde9">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c77f-c6b2-2d3d-478d" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5675-b236-79f0-2dad" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="equalTo" value="0" field="selections" scope="roster" childId="2f18-f5b6-85be-a5ed" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
 </catalogue>

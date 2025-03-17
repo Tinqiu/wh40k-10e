@@ -3,8 +3,7 @@
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Daemon Prince of Slaanesh" hidden="false" id="cd21-2f71-e0e7-05ad">
       <categoryLinks>
-        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="4134-cfb3-da67-08f7" primary="true" name="Character"/>
-        <categoryLink targetId="9693-cf84-fe69-37a9" id="33db-caec-0f65-51fb" primary="false" name="Monster"/>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="42fe-b050-6911-72b9" primary="true" name="Character"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Infernal Cannon" hidden="false" id="0a06-5e70-a2bd-fb81">
@@ -66,4 +65,11 @@
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Chaos - Chaos Knights Library" id="1bf8-3066-3532-4c27" targetId="8106-aad2-918a-9ac" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Chaos - Daemons Library" id="56ca-dd7d-e166-45b4" targetId="d265-877b-e03d-30ca" importRootEntries="true"/>
+  </catalogueLinks>
+  <categoryEntries>
+    <categoryEntry name="Daemon Prince of Slaanesh" id="bd68-fcb8-5371-d0f3" hidden="false"/>
+  </categoryEntries>
 </catalogue>

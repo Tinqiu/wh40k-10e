@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="4d70-8e73-4241-57ac" name="Chaos - Emperor&apos;s Children" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="36" revision="5" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="4d70-8e73-4241-57ac" name="Chaos - Emperor&apos;s Children" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="36" revision="6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Daemon Prince of Slaanesh" hidden="false" id="cd21-2f71-e0e7-05ad">
       <categoryLinks>
@@ -101,6 +101,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Enhancements" hidden="false" id="4bea-e911-7b33-673f" type="selectionEntryGroup" targetId="9ec4-fbee-0ccd-293a"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Daemon Prince of Slaanesh with Wings" hidden="false" id="6b72-ed6e-3833-ceaf">
       <categoryLinks>
@@ -257,6 +260,10 @@
           </profiles>
         </selectionEntry>
       </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8194-3a34-12fd-3aca" includeChildSelections="false"/>
+        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="f2a8-9800-d7a7-e79f" includeChildSelections="true"/>
+      </constraints>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="4d70-8e73-4241-57ac" name="Chaos - Emperor&apos;s Children" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="36" revision="11" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="4d70-8e73-4241-57ac" name="Chaos - Emperor&apos;s Children" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="36" revision="12" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Daemon Prince of Slaanesh" hidden="false" id="cd21-2f71-e0e7-05ad">
       <categoryLinks>
@@ -129,7 +129,7 @@
         <categoryLink targetId="4ac9-fd30-1e3d-b249" id="ca7d-4e1c-1880-2640" primary="true" name="Configuration"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Chaos Spawn" hidden="false" id="cbf2-4001-b1fd-4288">
+    <selectionEntry type="unit" import="true" name="Emperor&apos;s Children Chaos Spawn" hidden="false" id="cbf2-4001-b1fd-4288">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Chaos Spawn" hidden="false" id="1a1d-5e98-7414-248a">
           <costs>
@@ -717,6 +717,72 @@
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Emperor&apos;s Children Maulerfiend" hidden="false" id="07f8-f88b-393a-974e">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="130"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="dbd4-63-af05-998" id="2945-6c4f-a1e4-d605" primary="true" name="Vehicle"/>
+        <categoryLink targetId="6dda-e157-334d-e93a" id="8881-6f40-eedd-4a1c" primary="false" name="Walker"/>
+        <categoryLink targetId="b2a9-ede5-7a83-4da8" id="89b3-246d-4a1d-f441" primary="false" name="Slaanesh"/>
+        <categoryLink targetId="9c0e-7e25-4580-e439" id="2bf3-9b01-015b-a6d8" primary="false" name="Daemon"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Lasher tendrils" hidden="false" id="3696-c388-9280-8ac2">
+          <profiles>
+            <profile name="Lasher tendrils" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="a64d-7c0f-57c1-cc01">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">7</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Extra attacks</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Extra Attacks" id="0dc9-e21a-e7d6-89cc" hidden="false" type="rule" targetId="115b-79dc-f723-d761"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Maulerfiend fists" hidden="false" id="3e07-aadb-1050-d7c8">
+          <profiles>
+            <profile name="Maulerfiend fists" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="4dc3-8337-7fa4-f86d">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">14</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">D6+1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Deadly Demise" id="109a-b079-800b-189e" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
+          <modifiers>
+            <modifier type="append" value="D3" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Damaged: 1-4 Wounds Remaining" id="a3d2-7b6e-5206-1ced" hidden="false" type="profile" targetId="9f0f-f4cc-61e9-560f"/>
+        <infoLink name="Thrill Seekers" id="1bd1-ace6-27f2-cc4f" hidden="false" type="rule" targetId="0474-f26c-f793-1733"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Glutton for Punishment" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0d40-e54e-c935-9036">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack, if it is below its Starting Strength, add 1 to the Hit roll. If this model is also Below Half-Strength, add 1 to the Wound roll.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Chaos - Chaos Knights Library" id="1bf8-3066-3532-4c27" targetId="8106-aad2-918a-9ac" importRootEntries="true"/>
@@ -814,6 +880,11 @@
         <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
         <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Precision, Melta 2</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Damaged: 1-4 Wounds Remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9f0f-f4cc-61e9-560f">
+      <characteristics>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-4 Wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

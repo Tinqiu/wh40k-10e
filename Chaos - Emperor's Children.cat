@@ -11,7 +11,7 @@
         <categoryLink targetId="bd68-fcb8-5371-d0f3" id="6bc9-b088-80bc-95c8" primary="false" name="Daemon Prince of Slaanesh"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Infernal Cannon" hidden="false" id="0a06-5e70-a2bd-fb81">
+        <selectionEntry type="upgrade" import="true" name="Infernal Cannon" hidden="false" id="0a06-5e70-a2bd-fb81" sortIndex="1">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="333e-5ad4-e553-b42b" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7971-6b9f-d1e2-d28e" includeChildSelections="false"/>
@@ -78,6 +78,108 @@
           </modifiers>
         </infoLink>
         <infoLink name="Thrill Seekers" id="2bdb-7f90-f45b-59f0" hidden="false" type="rule" targetId="478c-a010-c2e0-804a"/>
+      </infoLinks>
+      <rules>
+        <rule name="Lord of Excess" id="fd6c-f284-ee89-ded2" hidden="false">
+          <description>When this model is within 3&quot; of one or more friendly SLAANESH INFANTRY units, this model has the Lone Operative ability. </description>
+        </rule>
+      </rules>
+      <profiles>
+        <profile name="Daemon Prince of Slaanesh" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="a252-43ec-b0f4-9bcc">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">10</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">10</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9de8-1d3d-8000-dcab">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 4+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Daemon Prince of Slaanesh with Wings" hidden="false" id="6b72-ed6e-3833-ceaf">
+      <categoryLinks>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="fb90-d372-b014-a92d" primary="true" name="Character"/>
+        <categoryLink targetId="9693-cf84-fe69-37a9" id="f82d-d20b-1722-4737" primary="false" name="Monster"/>
+        <categoryLink targetId="55c2-7a26-1990-46f7" id="1fb4-d548-7249-888d" primary="false" name="Faction: Emperor&apos;s Children"/>
+        <categoryLink targetId="4c00-2578-faf5-6918" id="f529-4dd9-fc52-ebd0" primary="false" name="Chaos"/>
+        <categoryLink targetId="b2a9-ede5-7a83-4da8" id="8f5b-f8bf-3895-d549" primary="false" name="Slaanesh"/>
+        <categoryLink targetId="bd68-fcb8-5371-d0f3" id="2d20-7d7a-45f0-97b5" primary="false" name="Daemon Prince of Slaanesh"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Infernal Cannon" hidden="false" id="da9e-4bef-d383-bece" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="583c-fe63-7c9d-2aaa" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="18db-f76e-e135-ab29" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Infernal Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="fc4c-3436-a51e-4507">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Hellforged Weapons" hidden="false" id="48f6-8edf-db9d-bfb7">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0fbe-8d7d-15a1-bef4" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="264b-8756-a6d4-8e83" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Hellforged Weapons - Strike" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="1cee-d100-8728-3198">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+              </characteristics>
+            </profile>
+            <profile name="Hellforged Weapons - Sweep" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="5880-e878-b3d7-dfe5">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">14</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="195"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="e045-c9ec-8847-7d22" includeChildSelections="true"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Deadly Demise" id="1696-8615-5b87-9393" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
+          <modifiers>
+            <modifier type="append" value="D3" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Thrill Seekers" id="85ac-d148-2548-8a79" hidden="false" type="rule" targetId="478c-a010-c2e0-804a"/>
+        <infoLink name="Deep Strike" id="a99b-2cc8-a27a-6c80" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>

@@ -680,6 +680,7 @@
     <entryLink import="true" name="Chaos Spawn" hidden="false" id="8e5b-40a9-20d4-14f4" type="selectionEntry" targetId="cbf2-4001-b1fd-4288"/>
     <entryLink import="true" name="Daemon Prince of Slaanesh with Wings" hidden="false" id="44b7-9e81-e3c0-9761" type="selectionEntry" targetId="585d-8309-4321-e172"/>
     <entryLink import="true" name="Tormentors" hidden="false" id="4e7d-581c-5eac-7b30" type="selectionEntry" targetId="6c52-2e2f-d5a1-518d"/>
+    <entryLink import="true" name="Chaos Rhino" hidden="false" id="e159-515c-2ccc-ff24" type="selectionEntry" targetId="f4f6-3e9c-a0c3-72e7"/>
   </entryLinks>
   <sharedRules>
     <rule name="Mechanized Murder" id="05b3-b8b7-cd51-a672" hidden="false">

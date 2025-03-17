@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="4d70-8e73-4241-57ac" name="Chaos - Emperor&apos;s Children" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="36" revision="10" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="4d70-8e73-4241-57ac" name="Chaos - Emperor&apos;s Children" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="36" revision="11" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Daemon Prince of Slaanesh" hidden="false" id="cd21-2f71-e0e7-05ad">
       <categoryLinks>
@@ -319,7 +319,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Tormentors" hidden="false" id="6c52-2e2f-d5a1-518d">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Obsessionist" hidden="false" id="3ecf-7807-365a-ca9d" sortIndex="2">
+        <selectionEntry type="model" import="true" name="Obsessionist" hidden="false" id="3ecf-7807-365a-ca9d" sortIndex="1">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0dfb-8c96-b972-e9f3" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="64c1-75f7-7140-1a36" includeChildSelections="false"/>
@@ -363,13 +363,13 @@
         </modifier>
       </modifiers>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Tormentors" id="8b4d-11ff-5fd1-7208" hidden="false" sortIndex="3">
+        <selectionEntryGroup name="Tormentors" id="8b4d-11ff-5fd1-7208" hidden="false" sortIndex="3" defaultSelectionEntryId="87fe-6c66-e995-bd4e">
           <constraints>
             <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="cd8f-6553-c3fa-c5eb" includeChildSelections="false"/>
             <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="5fd1-a8db-165f-3b7b" includeChildSelections="false"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Tormentor w/ Boltgun" hidden="false" id="87fe-6c66-e995-bd4e">
+            <selectionEntry type="model" import="true" name="Tormentor w/ Boltgun" hidden="false" id="87fe-6c66-e995-bd4e" sortIndex="1">
               <entryLinks>
                 <entryLink import="true" name="Boltgun" hidden="false" id="2248-162d-cea8-3d35" type="selectionEntry" targetId="647d-e2e7-2d5d-93c8">
                   <constraints>
@@ -386,7 +386,7 @@
                 <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="08ad-3f50-7215-e012" includeChildSelections="false"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Tormentors w/ Plasma gun" hidden="false" id="c3c5-5ac9-b2d8-f449">
+            <selectionEntry type="model" import="true" name="Tormentors w/ Plasma gun" hidden="false" id="c3c5-5ac9-b2d8-f449" sortIndex="3">
               <entryLinks>
                 <entryLink import="true" name="Close Combat Weapon" hidden="false" id="fa80-e8d7-c5a1-faa0" type="selectionEntry" targetId="dcde-1abf-e21a-3598"/>
               </entryLinks>
@@ -408,7 +408,7 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Tormentors w/ Meltagun" hidden="false" id="08c4-8215-963a-efab">
+            <selectionEntry type="model" import="true" name="Tormentors w/ Meltagun" hidden="false" id="08c4-8215-963a-efab" sortIndex="2">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="fc1c-dbc8-42a7-8356">
                   <infoLinks>
@@ -451,7 +451,7 @@
         </rule>
       </rules>
       <entryLinks>
-        <entryLink import="true" name="Icon of Excess" hidden="false" id="84fb-2a8b-945e-1d42" type="selectionEntry" targetId="8d6a-4270-fc1c-f873" sortIndex="1">
+        <entryLink import="true" name="Icon of Excess" hidden="false" id="84fb-2a8b-945e-1d42" type="selectionEntry" targetId="8d6a-4270-fc1c-f873" sortIndex="2">
           <associations>
             <association min="1" max="1" scope="6c52-2e2f-d5a1-518d" childId="model" name="Icon" id="6721-e76d-c975-7698" includeChildSelections="true"/>
           </associations>
@@ -587,6 +587,83 @@
           </characteristics>
         </profile>
       </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Chaos Rhino" hidden="false" id="f4f6-3e9c-a0c3-72e7">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Havoc Launcher" hidden="false" id="4ea0-4a92-c014-2912">
+          <profiles>
+            <profile name="Havoc Launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="8728-7bce-d1d4-c887">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a784-6501-0c1b-6e81" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Blast" id="8932-8cbf-56db-d4a3" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Replace Combi-bolter" id="864f-4ac4-c688-38fc" hidden="false" defaultSelectionEntryId="8fff-3949-a976-e9d9">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Combi-bolter" hidden="false" id="8fff-3949-a976-e9d9">
+              <profiles>
+                <profile name="Combi-bolter" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="e3b6-1f91-81c4-ade0">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Rapid Fire" id="9438-7845-a832-b939" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Combi-weapon" hidden="false" id="5a34-5ea3-e0a8-6c88">
+              <profiles>
+                <profile name="Combi-weapon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="0f17-d691-d347-5b79">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-infantry 4+, Devastating Wounds, Rapid Fire 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Rapid Fire" id="0673-21e2-2a1b-de2c" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
+                <infoLink name="Devastating Wounds" id="30a9-11c3-d40e-943d" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
+                <infoLink name="Anti-" id="3fc5-8b07-70a4-a0f5" hidden="false" type="rule" targetId="4111-82e3-9444-e942">
+                  <modifiers>
+                    <modifier type="append" value="Infantry 4+" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dbf9-43c7-b3f6-8421" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9857-13e5-f7e2-7327" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>

@@ -213,16 +213,33 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Chaos Spawn" hidden="false" id="1a1d-5e98-7414-248a">
           <costs>
-            <cost name="pts" typeId="51b2-306e-1021-d207" value="80"/>
+            <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
             <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
             <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
             <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
             <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
           </costs>
-          <constraints>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="aa94-9383-a33f-e089" includeChildSelections="false"/>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="c57a-d999-52bc-3458" includeChildSelections="false"/>
-          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Hideous Mutations" hidden="false" id="db14-9a82-5b0a-fbc3" collective="true">
+              <profiles>
+                <profile name="Hideous Mutations" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="fd8f-0a83-95e1-8a82">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">D6+2</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b25c-2a74-3847-39f3" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="133e-1aac-dd95-ccde" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <profiles>
@@ -259,6 +276,13 @@
       <constraints>
         <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="5e8a-a540-61f1-9eef" includeChildSelections="false"/>
       </constraints>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="80"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>

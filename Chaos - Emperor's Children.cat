@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="4d70-8e73-4241-57ac" name="Chaos - Emperor&apos;s Children" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="36" revision="8" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="4d70-8e73-4241-57ac" name="Chaos - Emperor&apos;s Children" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="36" revision="9" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Daemon Prince of Slaanesh" hidden="false" id="cd21-2f71-e0e7-05ad">
       <categoryLinks>
@@ -315,6 +315,68 @@
         <entryLink import="true" name="Enhancements" hidden="false" id="09fe-9e19-d091-ec47" type="selectionEntryGroup" targetId="9ec4-fbee-0ccd-293a"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Tormentors" hidden="false" id="6c52-2e2f-d5a1-518d">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Obsessionist" hidden="false" id="3ecf-7807-365a-ca9d"/>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="85"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier type="set" value="170" field="51b2-306e-1021-d207">
+          <conditions>
+            <condition type="atLeast" value="6" field="selections" scope="6c52-2e2f-d5a1-518d" childId="model" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Tormentors" id="8b4d-11ff-5fd1-7208" hidden="false">
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="cd8f-6553-c3fa-c5eb" includeChildSelections="false"/>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="5fd1-a8db-165f-3b7b" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Tormentor w/ Boltgun" hidden="false" id="87fe-6c66-e995-bd4e">
+              <entryLinks>
+                <entryLink import="true" name="Boltgun" hidden="false" id="2248-162d-cea8-3d35" type="selectionEntry" targetId="647d-e2e7-2d5d-93c8">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="87d7-aca9-9fc6-4837" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Close Combat Weapon" hidden="false" id="f3d6-8eeb-30a0-ac6d" type="selectionEntry" targetId="dcde-1abf-e21a-3598">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="004f-9b73-0079-0b28" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="08ad-3f50-7215-e012" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Boltgun" hidden="false" id="647d-e2e7-2d5d-93c8" collective="true">
+      <infoLinks>
+        <infoLink name="Boltgun" id="8788-257e-4cb7-9311" hidden="false" type="profile" targetId="548f-442d-1ff5-9a85"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f775-28d9-ec9c-d019" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="dcde-1abf-e21a-3598">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9782-3fae-6bb5-b5db" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Close Combat Weapon" id="bf38-1905-6f33-48d1" hidden="false" type="profile" targetId="65c9-4892-68c3-5a23"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Chaos - Chaos Knights Library" id="1bf8-3066-3532-4c27" targetId="8106-aad2-918a-9ac" importRootEntries="true"/>
@@ -378,4 +440,28 @@
       </constraints>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <sharedProfiles>
+    <profile name="Boltgun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="548f-442d-1ff5-9a85">
+      <characteristics>
+        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+        <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+        <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+        <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+        <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Precision</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Close Combat Weapon" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="65c9-4892-68c3-5a23">
+      <characteristics>
+        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+        <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+        <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
+        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+        <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </catalogue>

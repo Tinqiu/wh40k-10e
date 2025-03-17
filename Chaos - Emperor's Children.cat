@@ -324,6 +324,14 @@
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0dfb-8c96-b972-e9f3" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="64c1-75f7-7140-1a36" includeChildSelections="false"/>
           </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Replace Bolt Pistol" id="c5d4-2044-5e66-db45" hidden="false">
+              <entryLinks>
+                <entryLink import="true" name="Bolt Pistol" hidden="false" id="657f-7294-1559-9879" type="selectionEntry" targetId="1abc-fc3d-088d-99b4"/>
+                <entryLink import="true" name="Plasma Pistol" hidden="false" id="1427-b32e-ffb9-bd81" type="selectionEntry" targetId="47ee-26d1-cd90-d2c8"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -366,7 +374,7 @@
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Tormentors w/ Plasma gun" hidden="false" id="c3c5-5ac9-b2d8-f449">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Plasma gun" hidden="false" id="42c9-fcc3-9943-51c7">
+                <selectionEntry type="upgrade" import="true" name="Plasma gun" hidden="false" id="42c9-fcc3-9943-51c7" collective="true">
                   <infoLinks>
                     <infoLink name="Plasma gun" id="4399-4cd5-d194-d388" hidden="false" type="infoGroup" targetId="d3e0-72db-05a4-42e5"/>
                   </infoLinks>
@@ -435,7 +443,7 @@
         <infoLink name="Boltgun" id="8788-257e-4cb7-9311" hidden="false" type="profile" targetId="548f-442d-1ff5-9a85"/>
       </infoLinks>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f775-28d9-ec9c-d019" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="540a-51cd-ea7c-109f" includeChildSelections="false"/>
       </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="dcde-1abf-e21a-3598">
@@ -457,6 +465,93 @@
           </characteristics>
         </profile>
       </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Power Sword" hidden="false" id="9b48-a3ea-30cb-15ba">
+      <profiles>
+        <profile name="Power Sword" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="8d88-1e31-40b9-dd80">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="1abc-fc3d-088d-99b4">
+      <profiles>
+        <profile name="Bolt Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a60c-814d-c7a1-c14b">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Precision</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c51-3d50-1bbb-11b4" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Pistol" id="20b7-4535-b086-9e05" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
+        <infoLink name="Precision" id="9147-3b0f-20a3-662d" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="47ee-26d1-cd90-d2c8" collective="true">
+      <profiles>
+        <profile name="Bolt Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="2893-6650-5588-5df3">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Precision</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="45b0-ea00-73e2-85a6" includeChildSelections="false"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Pistol" id="7315-551a-7c4a-2b82" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
+        <infoLink name="Precision" id="630e-06c2-29fa-e1ba" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
+      </infoLinks>
+      <infoGroups>
+        <infoGroup name="Plasma Pistol" id="210b-b781-4af2-841f" hidden="false">
+          <profiles>
+            <profile name="Plasma Pistol - standard" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b478-af9d-2afd-a915">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Precision</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Plasma Pistol - supercharge" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a6e2-420e-b578-7d0e">
+              <characteristics>
+                <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Precision</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+      </infoGroups>
     </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>

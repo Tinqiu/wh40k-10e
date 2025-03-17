@@ -664,6 +664,15 @@
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="ba07-411c-2832-1f79" id="317f-263d-d82a-9a74" primary="true" name="Dedicated Transport"/>
+        <categoryLink targetId="dbd4-63-af05-998" id="5da5-c7b6-d317-f8a4" primary="false" name="Vehicle"/>
+        <categoryLink targetId="75e8-57c4-40e3-1817" id="a908-ec0d-872e-0fa4" primary="false" name="Transport"/>
+        <categoryLink targetId="6df-937-16bc-8c1a" id="3f55-20e7-06f0-bed2" primary="false" name="Smoke"/>
+        <categoryLink targetId="4c00-2578-faf5-6918" id="0c8d-6a63-df47-7441" primary="false" name="Chaos"/>
+        <categoryLink targetId="b2a9-ede5-7a83-4da8" id="b8ab-4217-8fad-9aaf" primary="false" name="Slaanesh"/>
+        <categoryLink targetId="50a2-5557-84bb-ca4d" id="01ce-6ebc-4bfb-be6b" primary="false" name="Rhino"/>
+      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>

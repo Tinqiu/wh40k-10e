@@ -72,4 +72,7 @@
   <categoryEntries>
     <categoryEntry name="Daemon Prince of Slaanesh" id="bd68-fcb8-5371-d0f3" hidden="false"/>
   </categoryEntries>
+  <entryLinks>
+    <entryLink import="true" name="Daemon Prince of Slaanesh" hidden="false" id="03fb-3ecc-3fc0-3adc" type="selectionEntry" targetId="cd21-2f71-e0e7-05ad"/>
+  </entryLinks>
 </catalogue>

@@ -358,7 +358,7 @@
                 <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="08ad-3f50-7215-e012" includeChildSelections="false"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Tormentors w/ Plasma gun" hidden="false" id="c3c5-5ac9-b2d8-f449">
+            <selectionEntry type="model" import="true" name="Tormentors w/ Plasma gun" hidden="false" id="c3c5-5ac9-b2d8-f449">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Plasma gun" hidden="false" id="42c9-fcc3-9943-51c7">
                   <infoLinks>

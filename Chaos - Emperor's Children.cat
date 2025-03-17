@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="4d70-8e73-4241-57ac" name="Chaos - Emperor&apos;s Children" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="36" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="4d70-8e73-4241-57ac" name="Chaos - Emperor&apos;s Children" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="36" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Daemon Prince of Slaanesh" hidden="false" id="cd21-2f71-e0e7-05ad">
       <categoryLinks>
@@ -182,6 +182,19 @@
         <infoLink name="Deep Strike" id="a99b-2cc8-a27a-6c80" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Detachment Choice" hidden="false" id="a4ae-7b0c-7005-c6d5">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Detachment" id="6282-4466-a39a-810f" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Rapid Evisceration" hidden="false" id="2f18-f5b6-85be-a5ed">
+              <infoLinks>
+                <infoLink name="Mechanized Murder" id="92ec-f6c1-366f-b492" hidden="false" type="rule" targetId="05b3-b8b7-cd51-a672"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Chaos - Chaos Knights Library" id="1bf8-3066-3532-4c27" targetId="8106-aad2-918a-9ac" importRootEntries="true"/>
@@ -200,5 +213,6 @@
 - It cannot target a unit it was within Engagement Range of at the start of the turn
 - It cannot target a unit that was the target of another unit&apos;s charge of attack this phase</description>
     </rule>
+    <rule name="Mechanized Murder" id="05b3-b8b7-cd51-a672" hidden="false"/>
   </sharedRules>
 </catalogue>

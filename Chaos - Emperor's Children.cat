@@ -588,7 +588,7 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Chaos Rhino" hidden="false" id="f4f6-3e9c-a0c3-72e7">
+    <selectionEntry type="model" import="true" name="Emperor&apos;s Children Rhino" hidden="false" id="f4f6-3e9c-a0c3-72e7">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Havoc Launcher" hidden="false" id="4ea0-4a92-c014-2912">
           <profiles>
@@ -708,6 +708,11 @@
         <profile name="Assault Vehicle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="956c-4a91-d0b2-0079">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Units can disembark from this TRANSPORT after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Emperor&apos;s Children Rhino" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="f34e-4ad4-b9ba-259a">
+          <characteristics>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 EMPEROR&apos;S CHILDREN INFANTRY models (excluding TERMINATOR and FLAWLESS BLADE models)</characteristic>
           </characteristics>
         </profile>
       </profiles>

@@ -749,6 +749,10 @@
           <infoLinks>
             <infoLink name="Extra Attacks" id="0dc9-e21a-e7d6-89cc" hidden="false" type="rule" targetId="115b-79dc-f723-d761"/>
           </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eff3-a580-ad94-521e" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8903-0e32-c255-90dc" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Maulerfiend fists" hidden="false" id="3e07-aadb-1050-d7c8">
           <profiles>
@@ -764,6 +768,10 @@
               </characteristics>
             </profile>
           </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7eb6-456e-b918-949b" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="79cc-efa7-3346-41e2" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>

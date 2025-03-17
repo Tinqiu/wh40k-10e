@@ -673,6 +673,13 @@
         <categoryLink targetId="b2a9-ede5-7a83-4da8" id="b8ab-4217-8fad-9aaf" primary="false" name="Slaanesh"/>
         <categoryLink targetId="50a2-5557-84bb-ca4d" id="01ce-6ebc-4bfb-be6b" primary="false" name="Rhino"/>
       </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="80"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>

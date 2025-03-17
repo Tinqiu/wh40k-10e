@@ -317,7 +317,12 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Tormentors" hidden="false" id="6c52-2e2f-d5a1-518d">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Obsessionist" hidden="false" id="3ecf-7807-365a-ca9d"/>
+        <selectionEntry type="model" import="true" name="Obsessionist" hidden="false" id="3ecf-7807-365a-ca9d">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0dfb-8c96-b972-e9f3" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="64c1-75f7-7140-1a36" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="85"/>

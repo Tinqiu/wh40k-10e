@@ -420,6 +420,13 @@
           <description>At the end of your Command Phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent&apos;s Level of Control over that objective marker is greater than yours at the end of a phase.</description>
         </rule>
       </rules>
+      <entryLinks>
+        <entryLink import="true" name="Icon of Excess" hidden="false" id="84fb-2a8b-945e-1d42" type="selectionEntry" targetId="8d6a-4270-fc1c-f873">
+          <associations>
+            <association min="1" max="1" scope="6c52-2e2f-d5a1-518d" childId="model" name="Icon" id="6721-e76d-c975-7698" includeChildSelections="true"/>
+          </associations>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Boltgun" hidden="false" id="647d-e2e7-2d5d-93c8" collective="true">
       <infoLinks>
@@ -436,6 +443,18 @@
       <infoLinks>
         <infoLink name="Close Combat Weapon" id="bf38-1905-6f33-48d1" hidden="false" type="profile" targetId="65c9-4892-68c3-5a23"/>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Icon of Excess" hidden="false" id="8d6a-4270-fc1c-f873">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29fd-4c95-2406-79bf" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Icon of Excess" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="738f-4369-d8dd-8728">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of your Shooting Phase or the Fight Phase, if the bearer&apos;s unit destroyed one or more enemy units that phase, the bearer&apos;s unit takes a Leadership test. If that test is passed, you gain 1CP. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>

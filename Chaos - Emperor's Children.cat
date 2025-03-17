@@ -3,12 +3,12 @@
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Daemon Prince of Slaanesh" hidden="false" id="cd21-2f71-e0e7-05ad">
       <categoryLinks>
-        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="42fe-b050-6911-72b9" primary="true" name="Character"/>
-        <categoryLink targetId="9693-cf84-fe69-37a9" id="9c12-8939-5ede-8170" primary="false" name="Monster"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="5c3a-c89e-9c50-d273" primary="false" name="Chaos"/>
         <categoryLink targetId="b2a9-ede5-7a83-4da8" id="2101-1a16-fe98-0721" primary="false" name="Slaanesh"/>
         <categoryLink targetId="bd68-fcb8-5371-d0f3" id="6bc9-b088-80bc-95c8" primary="false" name="Daemon Prince of Slaanesh"/>
         <categoryLink targetId="6a11-21b9-ab6b-dc47" id="daab-1ba1-f692-78c1" primary="false" name="Faction: Emperor&apos;s Children"/>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="bed7-4e92-3969-ff36" primary="true" name="Character"/>
+        <categoryLink targetId="9693-cf84-fe69-37a9" id="4461-fae5-1b17-25be" primary="false" name="Monster"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Infernal Cannon" hidden="false" id="0a06-5e70-a2bd-fb81" sortIndex="1">
@@ -216,6 +216,7 @@
         <categoryLink targetId="b2a9-ede5-7a83-4da8" id="3cf7-8cea-3c21-1ac8" primary="false" name="Slaanesh"/>
         <categoryLink targetId="bd68-fcb8-5371-d0f3" id="8b8e-ede0-9397-4053" primary="false" name="Daemon Prince of Slaanesh"/>
         <categoryLink targetId="6a11-21b9-ab6b-dc47" id="59db-605b-194c-c21f" primary="false" name="Faction: Emperor&apos;s Children"/>
+        <categoryLink targetId="c619-2086-bbcf-69c9" id="bec0-a9e8-4539-0431" primary="false" name="Fly"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Infernal Cannon" hidden="false" id="a724-c1f2-14ac-3fb5" sortIndex="1">
@@ -360,6 +361,14 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="e338-111e-d0c6-b687" id="da2c-7861-7029-c367" primary="true" name="Battleline"/>
+        <categoryLink targetId="cf47-a0d7-7207-29dc" id="47cd-ea46-3e17-2067" primary="false" name="Infantry"/>
+        <categoryLink targetId="5a61-81ac-eb7c-a87e" id="8071-a554-94ec-707e" primary="false" name="Grenades"/>
+        <categoryLink targetId="4c00-2578-faf5-6918" id="452a-8598-1b58-b024" primary="false" name="Chaos"/>
+        <categoryLink targetId="b2a9-ede5-7a83-4da8" id="36fa-29d0-b65c-b0a0" primary="false" name="Slaanesh"/>
+        <categoryLink targetId="b321-b6bf-1166-d065" id="a337-7179-f269-c504" primary="false" name="Tormentors"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Boltgun" hidden="false" id="647d-e2e7-2d5d-93c8" collective="true">
       <infoLinks>
@@ -385,6 +394,7 @@
     <categoryEntry name="Daemon Prince of Slaanesh" id="bd68-fcb8-5371-d0f3" hidden="false"/>
     <categoryEntry name="Faction: Emperor&apos;s Children" id="6a11-21b9-ab6b-dc47" hidden="false"/>
     <categoryEntry name="Chaos Spawn" id="6caa-ef20-54db-3954" hidden="false"/>
+    <categoryEntry name="Tormentors" id="b321-b6bf-1166-d065" hidden="false"/>
   </categoryEntries>
   <entryLinks>
     <entryLink import="true" name="Daemon Prince of Slaanesh" hidden="false" id="03fb-3ecc-3fc0-3adc" type="selectionEntry" targetId="cd21-2f71-e0e7-05ad"/>

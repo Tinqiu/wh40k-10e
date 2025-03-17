@@ -5,10 +5,10 @@
       <categoryLinks>
         <categoryLink targetId="4c00-2578-faf5-6918" id="5c3a-c89e-9c50-d273" primary="false" name="Chaos"/>
         <categoryLink targetId="b2a9-ede5-7a83-4da8" id="2101-1a16-fe98-0721" primary="false" name="Slaanesh"/>
-        <categoryLink targetId="bd68-fcb8-5371-d0f3" id="6bc9-b088-80bc-95c8" primary="false" name="Daemon Prince of Slaanesh"/>
         <categoryLink targetId="6a11-21b9-ab6b-dc47" id="daab-1ba1-f692-78c1" primary="false" name="Faction: Emperor&apos;s Children"/>
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="bed7-4e92-3969-ff36" primary="true" name="Character"/>
         <categoryLink targetId="9693-cf84-fe69-37a9" id="4461-fae5-1b17-25be" primary="false" name="Monster"/>
+        <categoryLink targetId="4f09-0141-6c70-6c5a" id="f2b4-4463-7ae0-4cf4" primary="false" name="Daemon Prince"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Infernal Cannon" hidden="false" id="0a06-5e70-a2bd-fb81" sortIndex="1">
@@ -214,7 +214,6 @@
         <categoryLink targetId="9693-cf84-fe69-37a9" id="d0a6-50bd-c987-fc97" primary="false" name="Monster"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="504b-3038-af87-9df4" primary="false" name="Chaos"/>
         <categoryLink targetId="b2a9-ede5-7a83-4da8" id="3cf7-8cea-3c21-1ac8" primary="false" name="Slaanesh"/>
-        <categoryLink targetId="bd68-fcb8-5371-d0f3" id="8b8e-ede0-9397-4053" primary="false" name="Daemon Prince of Slaanesh"/>
         <categoryLink targetId="6a11-21b9-ab6b-dc47" id="59db-605b-194c-c21f" primary="false" name="Faction: Emperor&apos;s Children"/>
         <categoryLink targetId="c619-2086-bbcf-69c9" id="bec0-a9e8-4539-0431" primary="false" name="Fly"/>
       </categoryLinks>
@@ -377,6 +376,25 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
+            <selectionEntry type="model" import="true" name="Tormentors w/ Meltagun" hidden="false" id="08c4-8215-963a-efab">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="fc1c-dbc8-42a7-8356">
+                  <infoLinks>
+                    <infoLink name="Meltagun" id="d28c-56d2-e685-78d7" hidden="false" type="profile" targetId="33cb-500a-7830-4a7c"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="4e7d-581c-5eac-7b30" shared="true" id="5d2e-0fd3-ad2f-6b10" includeChildSelections="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="2" field="5d2e-0fd3-ad2f-6b10">
+                      <conditions>
+                        <condition type="atLeast" value="6" field="selections" scope="6c52-2e2f-d5a1-518d" childId="model" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -419,7 +437,6 @@
     <catalogueLink type="catalogue" name="Chaos - Chaos Knights Library" id="1bf8-3066-3532-4c27" targetId="8106-aad2-918a-9ac" importRootEntries="true"/>
   </catalogueLinks>
   <categoryEntries>
-    <categoryEntry name="Daemon Prince of Slaanesh" id="bd68-fcb8-5371-d0f3" hidden="false"/>
     <categoryEntry name="Faction: Emperor&apos;s Children" id="6a11-21b9-ab6b-dc47" hidden="false"/>
     <categoryEntry name="Chaos Spawn" id="6caa-ef20-54db-3954" hidden="false"/>
     <categoryEntry name="Tormentors" id="b321-b6bf-1166-d065" hidden="false"/>
@@ -502,15 +519,15 @@
         <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
       </characteristics>
     </profile>
-    <profile name="Plasma Gun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="33cb-500a-7830-4a7c">
+    <profile name="Meltagun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="33cb-500a-7830-4a7c">
       <characteristics>
-        <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+        <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
         <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
         <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-        <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-        <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Precision, Rapid Fire 1</characteristic>
+        <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+        <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
+        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
+        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Precision, Melta 2</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -536,7 +553,7 @@
             <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Precision, Rapid Fire 1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Hazardous, Precision, Rapid Fire 1</characteristic>
           </characteristics>
         </profile>
       </profiles>

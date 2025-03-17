@@ -4,6 +4,11 @@
     <selectionEntry type="model" import="true" name="Daemon Prince of Slaanesh" hidden="false" id="cd21-2f71-e0e7-05ad">
       <categoryLinks>
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="42fe-b050-6911-72b9" primary="true" name="Character"/>
+        <categoryLink targetId="9693-cf84-fe69-37a9" id="9c12-8939-5ede-8170" primary="false" name="Monster"/>
+        <categoryLink targetId="55c2-7a26-1990-46f7" id="e6da-6ccb-09b2-f6a9" primary="false" name="Faction: Emperor&apos;s Children"/>
+        <categoryLink targetId="4c00-2578-faf5-6918" id="5c3a-c89e-9c50-d273" primary="false" name="Chaos"/>
+        <categoryLink targetId="b2a9-ede5-7a83-4da8" id="2101-1a16-fe98-0721" primary="false" name="Slaanesh"/>
+        <categoryLink targetId="bd68-fcb8-5371-d0f3" id="6bc9-b088-80bc-95c8" primary="false" name="Daemon Prince of Slaanesh"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Infernal Cannon" hidden="false" id="0a06-5e70-a2bd-fb81">

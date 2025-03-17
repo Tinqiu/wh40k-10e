@@ -319,7 +319,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Tormentors" hidden="false" id="6c52-2e2f-d5a1-518d">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Obsessionist" hidden="false" id="3ecf-7807-365a-ca9d">
+        <selectionEntry type="model" import="true" name="Obsessionist" hidden="false" id="3ecf-7807-365a-ca9d" sortIndex="2">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0dfb-8c96-b972-e9f3" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="64c1-75f7-7140-1a36" includeChildSelections="false"/>
@@ -332,6 +332,7 @@
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="3ecf-7807-365a-ca9d" shared="true" id="0e61-f8e2-649c-38c1" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e7d9-16e0-4669-bda8" includeChildSelections="false"/>
               </constraints>
             </selectionEntryGroup>
             <selectionEntryGroup name="Replace Power sword" id="1cbb-6443-9eef-b088" hidden="false" defaultSelectionEntryId="3715-4fba-5f66-8402">
@@ -340,7 +341,8 @@
                 <entryLink import="true" name="Rapture lash" hidden="false" id="fa4e-d57c-bb57-e563" type="selectionEntry" targetId="0bff-7e1e-fb6b-2bb8"/>
               </entryLinks>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="3ecf-7807-365a-ca9d" shared="true" id="b7aa-a11f-77c5-939d" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b7aa-a11f-77c5-939d" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e6b7-4c40-2d88-afdf" includeChildSelections="false"/>
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -361,7 +363,7 @@
         </modifier>
       </modifiers>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Tormentors" id="8b4d-11ff-5fd1-7208" hidden="false">
+        <selectionEntryGroup name="Tormentors" id="8b4d-11ff-5fd1-7208" hidden="false" sortIndex="3">
           <constraints>
             <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="cd8f-6553-c3fa-c5eb" includeChildSelections="false"/>
             <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="5fd1-a8db-165f-3b7b" includeChildSelections="false"/>
@@ -374,7 +376,7 @@
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="87d7-aca9-9fc6-4837" includeChildSelections="false"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Close Combat Weapon" hidden="false" id="f3d6-8eeb-30a0-ac6d" type="selectionEntry" targetId="dcde-1abf-e21a-3598">
+                <entryLink import="true" name="Close Combat Weapon" hidden="false" id="f3d6-8eeb-30a0-ac6d" type="selectionEntry" targetId="dcde-1abf-e21a-3598" sortIndex="1">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="004f-9b73-0079-0b28" includeChildSelections="false"/>
                   </constraints>
@@ -385,6 +387,9 @@
               </constraints>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Tormentors w/ Plasma gun" hidden="false" id="c3c5-5ac9-b2d8-f449">
+              <entryLinks>
+                <entryLink import="true" name="Close Combat Weapon" hidden="false" id="fa80-e8d7-c5a1-faa0" type="selectionEntry" targetId="dcde-1abf-e21a-3598"/>
+              </entryLinks>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Plasma gun" hidden="false" id="42c9-fcc3-9943-51c7" collective="true">
                   <infoLinks>
@@ -421,6 +426,9 @@
                   </modifiers>
                 </selectionEntry>
               </selectionEntries>
+              <entryLinks>
+                <entryLink import="true" name="Close Combat Weapon" hidden="false" id="7bf0-6fc9-bdb2-fd4a" type="selectionEntry" targetId="dcde-1abf-e21a-3598"/>
+              </entryLinks>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -443,7 +451,7 @@
         </rule>
       </rules>
       <entryLinks>
-        <entryLink import="true" name="Icon of Excess" hidden="false" id="84fb-2a8b-945e-1d42" type="selectionEntry" targetId="8d6a-4270-fc1c-f873">
+        <entryLink import="true" name="Icon of Excess" hidden="false" id="84fb-2a8b-945e-1d42" type="selectionEntry" targetId="8d6a-4270-fc1c-f873" sortIndex="1">
           <associations>
             <association min="1" max="1" scope="6c52-2e2f-d5a1-518d" childId="model" name="Icon" id="6721-e76d-c975-7698" includeChildSelections="true"/>
           </associations>

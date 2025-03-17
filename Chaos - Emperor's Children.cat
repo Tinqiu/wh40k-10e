@@ -325,11 +325,23 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="64c1-75f7-7140-1a36" includeChildSelections="false"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Replace Bolt Pistol" id="c5d4-2044-5e66-db45" hidden="false">
+            <selectionEntryGroup name="Replace Bolt Pistol" id="c5d4-2044-5e66-db45" hidden="false" defaultSelectionEntryId="657f-7294-1559-9879">
               <entryLinks>
                 <entryLink import="true" name="Bolt Pistol" hidden="false" id="657f-7294-1559-9879" type="selectionEntry" targetId="1abc-fc3d-088d-99b4"/>
                 <entryLink import="true" name="Plasma Pistol" hidden="false" id="1427-b32e-ffb9-bd81" type="selectionEntry" targetId="47ee-26d1-cd90-d2c8"/>
               </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="3ecf-7807-365a-ca9d" shared="true" id="0e61-f8e2-649c-38c1" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Replace Power sword" id="1cbb-6443-9eef-b088" hidden="false" defaultSelectionEntryId="3715-4fba-5f66-8402">
+              <entryLinks>
+                <entryLink import="true" name="Power Sword" hidden="false" id="3715-4fba-5f66-8402" type="selectionEntry" targetId="9b48-a3ea-30cb-15ba"/>
+                <entryLink import="true" name="Rapture lash" hidden="false" id="fa4e-d57c-bb57-e563" type="selectionEntry" targetId="0bff-7e1e-fb6b-2bb8"/>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="3ecf-7807-365a-ca9d" shared="true" id="b7aa-a11f-77c5-939d" includeChildSelections="false"/>
+              </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
@@ -552,6 +564,21 @@
           </profiles>
         </infoGroup>
       </infoGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Rapture lash" hidden="false" id="0bff-7e1e-fb6b-2bb8">
+      <profiles>
+        <profile name="Rapture lash" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="795b-ed31-392a-cfae">
+          <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>

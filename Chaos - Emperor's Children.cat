@@ -286,14 +286,6 @@
         </infoLink>
         <infoLink name="Thrill Seekers" id="aa89-9a66-f6a6-9caa" hidden="false" type="rule" targetId="0474-f26c-f793-1733"/>
       </infoLinks>
-      <rules>
-        <rule name="Daemonic Destruction" id="fd6c-f284-ee89-ded2" hidden="false">
-          <description>Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6 for each of this model&apos;s remaining wounds: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).</description>
-        </rule>
-        <rule name="Stimulated by Pain" id="04ee-38f9-5eb9-326a" hidden="false">
-          <description>Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack.</description>
-        </rule>
-      </rules>
       <profiles>
         <profile name="Daemon Prince of Slaanesh with Wings" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="a252-43ec-b0f4-9bcc">
           <characteristics>
@@ -308,6 +300,16 @@
         <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9de8-1d3d-8000-dcab">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has a 4+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Daemonic Destruction" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f7ca-3fdd-3820-7a27">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6 for each of this model&apos;s remaining wounds: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Stimulated by Pain" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d221-406b-4849-c1a2">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>

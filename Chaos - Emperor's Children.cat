@@ -71,6 +71,14 @@
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="9f46-cbd9-ef4e-fbee" includeChildSelections="true"/>
       </constraints>
+      <infoLinks>
+        <infoLink name="Deadly Demise" id="480f-6d0a-19f1-8f30" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
+          <modifiers>
+            <modifier type="append" value="D3" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Thrill Seekers" id="2bdb-7f90-f45b-59f0" hidden="false" type="rule" targetId="478c-a010-c2e0-804a"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
@@ -83,4 +91,13 @@
   <entryLinks>
     <entryLink import="true" name="Daemon Prince of Slaanesh" hidden="false" id="03fb-3ecc-3fc0-3adc" type="selectionEntry" targetId="cd21-2f71-e0e7-05ad"/>
   </entryLinks>
+  <sharedRules>
+    <rule name="Thrill Seekers" id="478c-a010-c2e0-804a" hidden="false">
+      <description>If your Army Faction is EMPEROR&apos;S CHILDREN, this unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back, but when doing so:
+
+
+- It cannot target a unit it was within Engagement Range of at the start of the turn
+- It cannot target a unit that was the target of another unit&apos;s charge of attack this phase</description>
+    </rule>
+  </sharedRules>
 </catalogue>

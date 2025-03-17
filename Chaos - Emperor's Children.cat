@@ -611,6 +611,21 @@
             <infoLink name="Blast" id="8932-8cbf-56db-d4a3" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
           </infoLinks>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Armoured tracks" hidden="false" id="612a-34d9-5660-100c">
+          <profiles>
+            <profile name="Armoured tracks" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="f052-25a8-f088-5b26">
+              <characteristics>
+                <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup name="Replace Combi-bolter" id="864f-4ac4-c688-38fc" hidden="false" defaultSelectionEntryId="8fff-3949-a976-e9d9">
@@ -650,11 +665,7 @@
               <infoLinks>
                 <infoLink name="Rapid Fire" id="0673-21e2-2a1b-de2c" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
                 <infoLink name="Devastating Wounds" id="30a9-11c3-d40e-943d" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
-                <infoLink name="Anti-" id="3fc5-8b07-70a4-a0f5" hidden="false" type="rule" targetId="4111-82e3-9444-e942">
-                  <modifiers>
-                    <modifier type="append" value="Infantry 4+" field="name"/>
-                  </modifiers>
-                </infoLink>
+                <infoLink name="Anti-" id="3fc5-8b07-70a4-a0f5" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -680,6 +691,26 @@
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
         <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
       </costs>
+      <infoLinks>
+        <infoLink name="Deadly Demise" id="c6e6-3ae3-6a1e-cfb1" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
+          <modifiers>
+            <modifier type="append" value="D3" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Firing Deck" id="6f51-1fd1-4d3e-600e" hidden="false" type="rule" targetId="13b2-6518-dab3-7ea1">
+          <modifiers>
+            <modifier type="append" value="2" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Thrill Seekers" id="a562-998d-284d-458b" hidden="false" type="rule" targetId="0474-f26c-f793-1733"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Assault Vehicle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="956c-4a91-d0b2-0079">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Units can disembark from this TRANSPORT after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>

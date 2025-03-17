@@ -341,7 +341,7 @@
             <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="5fd1-a8db-165f-3b7b" includeChildSelections="false"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Tormentor w/ Boltgun" hidden="false" id="87fe-6c66-e995-bd4e">
+            <selectionEntry type="model" import="true" name="Tormentor w/ Boltgun" hidden="false" id="87fe-6c66-e995-bd4e">
               <entryLinks>
                 <entryLink import="true" name="Boltgun" hidden="false" id="2248-162d-cea8-3d35" type="selectionEntry" targetId="647d-e2e7-2d5d-93c8">
                   <constraints>

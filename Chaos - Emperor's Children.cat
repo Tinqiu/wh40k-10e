@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="4d70-8e73-4241-57ac" name="Chaos - Emperor&apos;s Children" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="36" revision="9" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="4d70-8e73-4241-57ac" name="Chaos - Emperor&apos;s Children" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="36" revision="10" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Daemon Prince of Slaanesh" hidden="false" id="cd21-2f71-e0e7-05ad">
       <categoryLinks>
@@ -388,6 +388,15 @@
         <categoryLink targetId="b2a9-ede5-7a83-4da8" id="36fa-29d0-b65c-b0a0" primary="false" name="Slaanesh"/>
         <categoryLink targetId="b321-b6bf-1166-d065" id="a337-7179-f269-c504" primary="false" name="Tormentors"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Thrill Seekers" id="1300-d1fc-b083-912a" hidden="false" type="rule" targetId="0474-f26c-f793-1733"/>
+        <infoLink name="Infiltrators" id="e1a1-0049-67d6-f2d9" hidden="false" type="rule" targetId="c05d-f4c3-f091-4938"/>
+      </infoLinks>
+      <rules>
+        <rule name="Objective Defiled" id="b09c-a44e-1504-b97c" hidden="false">
+          <description>At the end of your Command Phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent&apos;s Level of Control over that objective marker is greater than yours at the end of a phase.</description>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Boltgun" hidden="false" id="647d-e2e7-2d5d-93c8" collective="true">
       <infoLinks>

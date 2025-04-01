@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="4d70-8e73-4241-57ac" name="Chaos - Emperor&apos;s Children" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="36" revision="13" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="4d70-8e73-4241-57ac" name="Chaos - Emperors Children" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="36" revision="13" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Daemon Prince of Slaanesh" hidden="false" id="cd21-2f71-e0e7-05ad">
       <categoryLinks>
         <categoryLink targetId="4c00-2578-faf5-6918" id="5c3a-c89e-9c50-d273" primary="false" name="Chaos"/>
         <categoryLink targetId="b2a9-ede5-7a83-4da8" id="2101-1a16-fe98-0721" primary="false" name="Slaanesh"/>
-        <categoryLink targetId="6a11-21b9-ab6b-dc47" id="daab-1ba1-f692-78c1" primary="false" name="Faction: Emperor&apos;s Children"/>
+        <categoryLink targetId="6a11-21b9-ab6b-dc47" id="daab-1ba1-f692-78c1" primary="false" name="Faction: Emperors Children"/>
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="bed7-4e92-3969-ff36" primary="true" name="Character"/>
         <categoryLink targetId="9693-cf84-fe69-37a9" id="4461-fae5-1b17-25be" primary="false" name="Monster"/>
         <categoryLink targetId="4f09-0141-6c70-6c5a" id="f2b4-4463-7ae0-4cf4" primary="false" name="Daemon Prince"/>
@@ -129,7 +129,7 @@
         <categoryLink targetId="4ac9-fd30-1e3d-b249" id="ca7d-4e1c-1880-2640" primary="true" name="Configuration"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Emperor&apos;s Children Chaos Spawn" hidden="false" id="cbf2-4001-b1fd-4288">
+    <selectionEntry type="unit" import="true" name="Emperors Children Chaos Spawn" hidden="false" id="cbf2-4001-b1fd-4288">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Chaos Spawn" hidden="false" id="1a1d-5e98-7414-248a">
           <costs>
@@ -194,7 +194,7 @@
       <categoryLinks>
         <categoryLink targetId="4c3e-9310-a516-3590" id="2a11-863b-4b14-66c9" primary="true" name="Beast"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="5075-84ab-7acc-5ffa" primary="false" name="Chaos"/>
-        <categoryLink targetId="6a11-21b9-ab6b-dc47" id="f135-c172-c346-4f5d" primary="false" name="Faction: Emperor&apos;s Children"/>
+        <categoryLink targetId="6a11-21b9-ab6b-dc47" id="f135-c172-c346-4f5d" primary="false" name="Faction: Emperors Children"/>
         <categoryLink targetId="6caa-ef20-54db-3954" id="8841-8a71-c6eb-a41e" primary="false" name="Chaos Spawn"/>
       </categoryLinks>
       <constraints>
@@ -214,7 +214,7 @@
         <categoryLink targetId="9693-cf84-fe69-37a9" id="d0a6-50bd-c987-fc97" primary="false" name="Monster"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="504b-3038-af87-9df4" primary="false" name="Chaos"/>
         <categoryLink targetId="b2a9-ede5-7a83-4da8" id="3cf7-8cea-3c21-1ac8" primary="false" name="Slaanesh"/>
-        <categoryLink targetId="6a11-21b9-ab6b-dc47" id="59db-605b-194c-c21f" primary="false" name="Faction: Emperor&apos;s Children"/>
+        <categoryLink targetId="6a11-21b9-ab6b-dc47" id="59db-605b-194c-c21f" primary="false" name="Faction: Emperors Children"/>
         <categoryLink targetId="c619-2086-bbcf-69c9" id="bec0-a9e8-4539-0431" primary="false" name="Fly"/>
       </categoryLinks>
       <selectionEntries>
@@ -588,7 +588,7 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Emperor&apos;s Children Rhino" hidden="false" id="f4f6-3e9c-a0c3-72e7">
+    <selectionEntry type="model" import="true" name="Emperors Children Rhino" hidden="false" id="f4f6-3e9c-a0c3-72e7">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Havoc Launcher" hidden="false" id="4ea0-4a92-c014-2912">
           <profiles>
@@ -710,14 +710,14 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Units can disembark from this TRANSPORT after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Emperor&apos;s Children Rhino" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="f34e-4ad4-b9ba-259a">
+        <profile name="Emperors Children Rhino" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="f34e-4ad4-b9ba-259a">
           <characteristics>
-            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 EMPEROR&apos;S CHILDREN INFANTRY models (excluding TERMINATOR and FLAWLESS BLADE models)</characteristic>
+            <characteristic name="Capacity" typeId="30f2-be70-861d-1b84">This model has a transport capacity of 12 Emperors Children INFANTRY models (excluding TERMINATOR and FLAWLESS BLADE models)</characteristic>
           </characteristics>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Emperor&apos;s Children Maulerfiend" hidden="false" id="07f8-f88b-393a-974e">
+    <selectionEntry type="model" import="true" name="Emperors Children Maulerfiend" hidden="false" id="07f8-f88b-393a-974e">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="130"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -789,7 +789,7 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model makes an attack, if it is below its Starting Strength, add 1 to the Hit roll. If this model is also Below Half-Strength, add 1 to the Wound roll.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Emperor&apos;s Children Maulerfiend" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="3992-c4f4-f16e-e356">
+        <profile name="Emperors Children Maulerfiend" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="3992-c4f4-f16e-e356">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">10</characteristic>
@@ -816,7 +816,7 @@
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d673-2db2-67a3-0805">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
-- EMPEROR&apos;S CHILDREN TERMINATOR SQUAD
+- Emperors Children TERMINATOR SQUAD
 - NOISE MARINES</characteristic>
           </characteristics>
         </profile>
@@ -957,7 +957,7 @@
     <catalogueLink type="catalogue" name="Chaos - Chaos Knights Library" id="1bf8-3066-3532-4c27" targetId="8106-aad2-918a-9ac" importRootEntries="true"/>
   </catalogueLinks>
   <categoryEntries>
-    <categoryEntry name="Faction: Emperor&apos;s Children" id="6a11-21b9-ab6b-dc47" hidden="false"/>
+    <categoryEntry name="Faction: Emperors Children" id="6a11-21b9-ab6b-dc47" hidden="false"/>
     <categoryEntry name="Chaos Spawn" id="6caa-ef20-54db-3954" hidden="false"/>
     <categoryEntry name="Tormentors" id="b321-b6bf-1166-d065" hidden="false"/>
     <categoryEntry name="Lord Kakophonist" id="641d-ea13-cebf-a2d6" hidden="false"/>
@@ -970,15 +970,15 @@
     <entryLink import="true" name="Daemon Prince of Slaanesh with Wings" hidden="false" id="44b7-9e81-e3c0-9761" type="selectionEntry" targetId="585d-8309-4321-e172"/>
     <entryLink import="true" name="Tormentors" hidden="false" id="4e7d-581c-5eac-7b30" type="selectionEntry" targetId="6c52-2e2f-d5a1-518d"/>
     <entryLink import="true" name="Chaos Rhino" hidden="false" id="e159-515c-2ccc-ff24" type="selectionEntry" targetId="f4f6-3e9c-a0c3-72e7"/>
-    <entryLink import="true" name="Emperor&apos;s Children Maulerfiend" hidden="false" id="cf70-b58b-9345-5a50" type="selectionEntry" targetId="07f8-f88b-393a-974e"/>
+    <entryLink import="true" name="Emperors Children Maulerfiend" hidden="false" id="cf70-b58b-9345-5a50" type="selectionEntry" targetId="07f8-f88b-393a-974e"/>
     <entryLink import="true" name="Lord Kakophonist" hidden="false" id="b6fd-e90d-44b7-9759" type="selectionEntry" targetId="a1b6-6afa-6d13-d5e9"/>
   </entryLinks>
   <sharedRules>
     <rule name="Mechanized Murder" id="05b3-b8b7-cd51-a672" hidden="false">
-      <description>Each time an EMPEROR&apos;S CHILDREN model from your army makes an attack, if it disembarked from a TRANSPORT this turn, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.</description>
+      <description>Each time an Emperors Children model from your army makes an attack, if it disembarked from a TRANSPORT this turn, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.</description>
     </rule>
     <rule name="Thrill Seekers" id="0474-f26c-f793-1733" hidden="false">
-      <description>If your Army Faction is EMPEROR&apos;S CHILDREN, this unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back, but when doing so:
+      <description>If your Army Faction is Emperors Children, this unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back, but when doing so:
 
 
 
